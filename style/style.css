@@ -1,3 +1,5 @@
+@import url("loader.css");
+
 * {
   padding: 0;
   margin: 0;
@@ -68,6 +70,7 @@ h1 {
   margin: 0 auto;
   width: 100px;
   height: 50px;
+  display: none;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -75,6 +78,7 @@ h1 {
 
 .btn-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   transform: translateY(-180px);
 }
